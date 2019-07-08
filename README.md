@@ -1,4 +1,5 @@
 ### Usage
+[github下载](https://github.com/chenjianfang/deepClone)
 需要在ES6 babel/polyfill环境下运行。抛出两个函数，分别为cloneDeep和clone。支持复制的类型：[Arguments', 'Array', 'Boolean', 'Date', 'Error', 'Map', 'Number', 'Object', 'RegExp', 'Set', 'String', 'Symbol'];
 ```
 	// @example
@@ -7,7 +8,7 @@
 	const cloneBackup = clone({ a, 1: b: 2 }, true); // 浅复制
 ```
 ### Test
- <a href="https://github.com/chenjianfang/deepClone/blob/master/test.html" target="_blank">test demo</a>
+[test demo](https://github.com/chenjianfang/deepClone/blob/master/test.html)
 
 ### Tips
  暂不支持复制buffer类型数据
