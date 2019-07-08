@@ -7,7 +7,7 @@
 	const cloneBackup = clone({ a, 1: b: 2 }, true); // 浅复制
 ```
 ### Test
- <a href="" target="_blank">test demo</a>
+ <a href="https://github.com/chenjianfang/deepClone/blob/master/test.html" target="_blank">test demo</a>
 
 ### Tips
  暂不支持复制buffer类型数据
